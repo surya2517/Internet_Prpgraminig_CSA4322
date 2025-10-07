@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoteOnline</title>
+</head>
+<body>
+  <header>
+    <h1>VoteOnline - E-Voting Portal</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Vote</a> |
+      <a href="#">Results</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Login with Voter ID</h2>
+      <form>
+        <label>Voter ID: <input type="text"></label><br>
+        <label>OTP: <input type="password"></label><br>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Cast Your Vote</h2>
+      <form>
+        <label>
+          <input type="radio" name="candidate"> Candidate A
+        </label><br>
+        <label>
+          <input type="radio" name="candidate"> Candidate B
+        </label><br>
+        <label>
+          <input type="radio" name="candidate"> Candidate C
+        </label><br>
+        <button type="submit">Submit Vote</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Live Results</h2>
+      <p>Candidate A: 55%</p>
+      <p>Candidate B: 30%</p>
+      <p>Candidate C: 15%</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 VoteOnline</p>
+  </footer>
+</body>
+</html>
