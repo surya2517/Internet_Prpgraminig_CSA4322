@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VetCare Online</title>
+</head>
+<body>
+  <header>
+    <h1>VetCare - Online Animal Health Service</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Post Complaint</a> |
+      <a href="#">Doctors</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Send Symptoms</h2>
+      <form>
+        <label>Animal Type: <input type="text"></label><br>
+        <label>Upload Photo: <input type="file"></label><br>
+        <label>Upload Video: <input type="file"></label><br>
+        <label>Description:<br>
+          <textarea rows="4" cols="40"></textarea>
+        </label><br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Doctor Response</h2>
+      <p>Your assigned doctor will review the symptoms and provide treatment suggestions.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 VetCare</p>
+  </footer>
+</body>
+</html>
