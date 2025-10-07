@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EasyToll</title>
+</head>
+<body>
+  <header>
+    <h1>EasyToll - Online Toll Payments</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Recharge Wallet</a> |
+      <a href="#">My Pass</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Add Money to Wallet</h2>
+      <form>
+        <label>Amount: <input type="number" placeholder="Enter amount"></label><br>
+        <button type="submit">Add Money</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Buy Toll Pass</h2>
+      <form>
+        <label>Vehicle No: <input type="text"></label><br>
+        <label>Select Route:
+          <select>
+            <option>Highway A</option>
+            <option>Highway B</option>
+            <option>Expressway</option>
+          </select>
+        </label><br>
+        <button type="submit">Buy Pass</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EasyToll System</p>
+  </footer>
+</body>
+</html>
