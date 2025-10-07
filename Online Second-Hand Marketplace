@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReNewMarket</title>
+</head>
+<body>
+  <header>
+    <h1>ReNewMarket - Buy & Sell Used Items</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Browse</a> |
+      <a href="#">Sell</a> |
+      <a href="#">My Account</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Post an Item for Sale</h2>
+      <form>
+        <label>Item Name: <input type="text"></label><br>
+        <label>Category:
+          <select>
+            <option>Electronics</option>
+            <option>Furniture</option>
+            <option>Clothing</option>
+          </select>
+        </label><br>
+        <label>Price: <input type="number"></label><br>
+        <label>Upload Image: <input type="file"></label><br>
+        <button type="submit">Post Item</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Recent Listings</h2>
+      <ul>
+        <li>Used Laptop - $300</li>
+        <li>Sofa Set - $150</li>
+        <li>Winter Jacket - $50</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ReNewMarket</p>
+  </footer>
+</body>
+</html>
