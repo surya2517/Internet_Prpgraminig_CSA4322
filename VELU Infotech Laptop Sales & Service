@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ram Infotech</title>
+  <style>
+    body{font-family:Arial;background:#f2f2f2;margin:0;text-align:center}
+    header,footer{background:#333;color:#fff;padding:8px}
+  </style>
+</head>
+<body>
+<header><h3> Ram Infotech</h3></header>
+
+<section>
+  <p>Laptop Sales | Service | Stock | Customer</p>
+</section>
+
+<footer>© 2025 Ram Infotech</footer>
+</body>
+</html>
