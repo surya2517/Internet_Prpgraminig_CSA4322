@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ComplainEase</title>
+</head>
+<body>
+  <header>
+    <h1>ComplainEase - Complaint Management</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Register Complaint</a> |
+      <a href="#">Track Complaint</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Register Complaint</h2>
+      <form>
+        <label>Name: <input type="text"></label><br>
+        <label>Email: <input type="email"></label><br>
+        <label>Category:
+          <select>
+            <option>Water</option>
+            <option>Electricity</option>
+            <option>Road</option>
+            <option>Other</option>
+          </select>
+        </label><br>
+        <label>Description:<br>
+          <textarea rows="4" cols="40"></textarea>
+        </label><br>
+        <button type="submit">Submit Complaint</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Track Complaint</h2>
+      <form>
+        <label>Complaint ID: <input type="text"></label>
+        <button type="submit">Check Status</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ComplainEase</p>
+  </footer>
+</body>
+</html>
