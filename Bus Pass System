@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bus Pass</title>
+  <style>
+    body{font-family:Arial;background:#f2f2f2;margin:0}
+    header,footer{background:#333;color:#fff;text-align:center;padding:8px}
+    form{background:#fff;padding:8px;margin:8px auto;max-width:250px}
+    input,button{width:100%;margin:4px 0;padding:6px}
+    button{background:#333;color:#fff;border:0}
+  </style>
+</head>
+<body>
+<header><h3>Bus Pass System</h3></header>
+
+<section>
+  <h4>User</h4>
+  <form><input placeholder="Name"><input placeholder="Email"><button>Register/Login</button></form>
+  <form><button>Apply Bus Pass</button></form>
+</section>
+
+<section>
+  <h4>Admin</h4>
+  <form><input placeholder="Route ID"><button>Approve Pass</button></form>
+</section>
+
+<section>
+  <h4>Conductor</h4>
+  <form><input placeholder="Scan QR"><button>Verify</button></form>
+</section>
+
+<footer>© 2025 Bus Pass</footer>
+</body>
+</html>
