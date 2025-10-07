@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Waste Management</title>
+</head>
+<body>
+  <header>
+    <h1>Smart Solid Waste Management</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Complaints</a> |
+      <a href="#">Driver Dashboard</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Register Complaint</h2>
+      <form>
+        <label>Name: <input type="text"></label><br>
+        <label>Location: <input type="text"></label><br>
+        <label>Complaint: <textarea rows="3" cols="30"></textarea></label><br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Driver Route</h2>
+      <p>Assigned Route: City Center → West Side → Dump Yard</p>
+      <button>Update Status</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Waste Management</p>
+  </footer>
+</body>
+</html>
