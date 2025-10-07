@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JobFinder</title>
+</head>
+<body>
+  <header>
+    <h1>JobFinder - Apply Online</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Vacancies</a> |
+      <a href="#">Apply</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Search Vacancies</h2>
+      <form>
+        <label>Keyword: <input type="text"></label><br>
+        <label>Location: <input type="text"></label><br>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Job Listings</h2>
+      <ul>
+        <li>Software Engineer - Chennai <button>Apply</button></li>
+        <li>Web Designer - Bangalore <button>Apply</button></li>
+        <li>Data Analyst - Delhi <button>Apply</button></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 JobFinder</p>
+  </footer>
+</body>
+</html>
