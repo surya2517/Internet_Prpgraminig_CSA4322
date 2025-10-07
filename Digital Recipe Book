@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipe Book</title>
+  <style>
+    body{font-family:Arial;text-align:center;background:#f2f2f2;margin:0}
+    header,footer{background:#333;color:#fff;padding:8px}
+  </style>
+</head>
+<body>
+<header><h3> Recipe Book</h3></header>
+
+<section>
+  <p>Recipes | Search | Add | Reviews</p>
+</section>
+
+<footer>© 2025 Recipe Book</footer>
+</body>
+</html>
