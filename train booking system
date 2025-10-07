@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Train Reservation</title>
+</head>
+<body>
+  <header>
+    <h1>Railway Reservation System</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Search Train</a> |
+      <a href="#">Book Ticket</a> |
+      <a href="#">PNR Status</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Login Section -->
+    <section>
+      <h2>User Login</h2>
+      <form>
+        <label>Email: <input type="email" required></label><br>
+        <label>Password: <input type="password" required></label><br>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <!-- Search Train Section -->
+    <section>
+      <h2>Search Train</h2>
+      <form>
+        <label>From: <input type="text" name="from" required></label><br>
+        <label>To: <input type="text" name="to" required></label><br>
+        <label>Date of Journey: <input type="date" required></label><br>
+        <label>Class:
+          <select>
+            <option>General</option>
+            <option>Sleeper</option>
+            <option>AC 3 Tier</option>
+            <option>AC 2 Tier</option>
+            <option>First Class</option>
+          </select>
+        </label><br>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <!-- Book Ticket Section -->
+    <section>
+      <h2>Book Ticket</h2>
+      <form>
+        <label>Passenger Name: <input type="text" required></label><br>
+        <label>Age: <
