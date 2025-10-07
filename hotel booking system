@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Booking</title>
+</head>
+<body>
+    <h1>Hotel Room Booking</h1>
+
+    <h2>Book a Room</h2>
+    <form>
+        Name: <input type="text" placeholder="Your Name"><br><br>
+        Check-in: <input type="date"><br><br>
+        Check-out: <input type="date"><br><br>
+        Guests: <input type="number" placeholder="Number of Guests"><br><br>
+        Room Type:
+        <select>
+            <option>Single</option>
+            <option>Double</option>
+            <option>Suite</option>
+        </select><br><br>
+        <button type="submit">Book Now</button>
+    </form>
+
+    <h2>Booking History</h2>
+    <ul>
+        <li>Room: Double | Check-in: 2025-10-05 | Check-out: 2025-10-10</li>
+        <li>Room: Suite | Check-in: 2025-11-01 | Check-out: 2025-11-05</li>
+    </ul>
+</body>
+</html>
