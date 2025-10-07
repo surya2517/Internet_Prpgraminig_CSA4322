@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Breakdown Assistance</title>
+  <style>
+    body{font-family:Arial;background:#f2f2f2;margin:0}
+    header,footer{background:#333;color:#fff;text-align:center;padding:8px}
+    section{padding:10px}
+    form{background:#fff;padding:8px;margin:8px auto;max-width:250px}
+    input,textarea,button,select{width:100%;margin:4px 0;padding:6px}
+    button{background:#333;color:#fff;border:0}
+  </style>
+</head>
+<body>
+
+<header><h3>🚗 Vehicle Help</h3></header>
+
+<section>
+  <h4>User</h4>
+  <form><input placeholder="Username"><input type="password" placeholder="Password"><button>Login</button></form>
+  <form><input placeholder="Search Location"><button>Search</button></form>
+  <form><textarea placeholder="Feedback"></textarea><button>Send</button></form>
+</section>
+
+<section>
+  <h4>Mechanic</h4>
+  <form><input placeholder="Business"><input type="password" placeholder="Password"><button>Login</button></form>
+  <form><input placeholder="Service Type"><button>Post</button></form>
+</section>
+
+<section>
+  <h4>Admin</h4>
+  <form><select><option>Pending Mechanic</option></select><button>Approve</button></form>
+</section>
+
+<footer>© 2025 Road Assist</footer>
+
+</body>
+</html>
