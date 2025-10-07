@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StyleHub Fashion Store</title>
+</head>
+<body>
+  <header>
+    <h1>StyleHub</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Men</a> |
+      <a href="#">Women</a> |
+      <a href="#">Kids</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Featured Products</h2>
+      <ul>
+        <li>Men’s Shirt - $50 <button>Add</button></li>
+        <li>Women’s Dress - $80 <button>Add</button></li>
+        <li>Kid’s Jacket - $40 <button>Add</button></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Search Fashion</h2>
+      <form>
+        <input type="text" placeholder="Search products...">
+        <button type="submit">Search</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 StyleHub</p>
+  </footer>
+</body>
+</html>
