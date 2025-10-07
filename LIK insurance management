@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InsureEasy</title>
+</head>
+<body>
+  <header>
+    <h1>InsureEasy - Insurance Portal</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Policies</a> |
+      <a href="#">My Dashboard</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Compare Policies</h2>
+      <form>
+        <label>Policy Type:
+          <select>
+            <option>Health Insurance</option>
+            <option>Auto Insurance</option>
+            <option>Home Insurance</option>
+          </select>
+        </label><br>
+        <label>Coverage Amount: <input type="number" placeholder="Enter amount"></label><br>
+        <button type="submit">Compare</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Login</h2>
+      <form>
+        <label>Email: <input type="email"></label><br>
+        <label>Password: <input type="password"></label><br>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 InsureEasy</p>
+  </footer>
+</body>
+</html>
