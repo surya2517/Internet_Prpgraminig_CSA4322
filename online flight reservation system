@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Flight Reservation</title>
+</head>
+<body>
+  <header>
+    <h1>Flight Reservation System</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Search Flights</a> |
+      <a href="#">My Tickets</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Search Flight</h2>
+      <form>
+        <label>From: <input type="text" name="from"></label><br>
+        <label>To: <input type="text" name="to"></label><br>
+        <label>Date: <input type="date" name="date"></label><br>
+        <label>Class:
+          <select>
+            <option>Economy</option>
+            <option>Business</option>
+            <option>First Class</option>
+          </select>
+        </label><br>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>User Login</h2>
+      <form>
+        <label>Email: <input type="email" required></label><br>
+        <label>Password: <input type="password" required></label><br>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Flight Reservation System</p>
+  </footer>
+</body>
+</html>
