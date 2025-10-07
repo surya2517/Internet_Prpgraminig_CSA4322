@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dairy Farm</title>
+  <style>
+    body{font-family:Arial;background:#f2f2f2;margin:0;text-align:center}
+    header,footer{background:#333;color:#fff;padding:8px}
+  </style>
+</head>
+<body>
+<header><h3>🥛 Ko-Matha Dairy</h3></header>
+
+<section>
+  <p>Products | Stock | Orders | Customer Info</p>
+</section>
+
+<footer>© 2025 Ko-Matha Dairy</footer>
+</body>
+</html>
