@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlust Travels</title>
+</head>
+<body>
+  <header>
+    <h1>Wanderlust Travels</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Flights</a> |
+      <a href="#">Hotels</a> |
+      <a href="#">Car Rentals</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Search Travel Packages</h2>
+      <form>
+        <label>Destination: <input type="text" placeholder="Enter city or country"></label><br>
+        <label>Check-in: <input type="date"></label><br>
+        <label>Check-out: <input type="date"></label><br>
+        <label>Guests: <input type="number" value="1" min="1"></label><br>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Popular Destinations</h2>
+      <ul>
+        <li>Paris – Flight + Hotel – $999 <button>Book</button></li>
+        <li>Dubai – Hotel + Car Rental – $799 <button>Book</button></li>
+        <li>New York – Full Package – $1200 <button>Book</button></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Booking Confirmation</h2>
+      <p>Your booking details will be shown here after confirmation. Check email for tickets.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wanderlust Travels</p>
+  </footer>
+</body>
+</html>
