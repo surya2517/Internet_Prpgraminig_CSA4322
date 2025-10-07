@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gourmet Haven</title>
+  <style>
+    body{font-family:Arial;text-align:center;background:#f9f9f9;margin:0}
+    header,footer{background:#333;color:#fff;padding:8px}
+  </style>
+</head>
+<body>
+<header><h3> Gourmet Haven</h3></header>
+
+<section>
+  <p>Menu | About | Reservation | Contact</p>
+</section>
+
+<footer>© 2025 Gourmet Haven</footer>
+</body>
+</html>
