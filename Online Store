@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Store</title>
+  <style>
+    body{font-family:Arial;text-align:center;background:#f2f2f2;margin:0}
+    header,footer{background:#333;color:#fff;padding:8px}
+  </style>
+</head>
+<body>
+<header><h3> Online Store</h3></header>
+
+<section>
+  <p>Products | Cart | Checkout | Search</p>
+</section>
+
+<footer>© 2025 Online Store</footer>
+</body>
+</html>
