@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tuition Centre</title>
+  <style>
+    body{font-family:Arial;text-align:center;background:#f9f9f9;margin:0}
+    header,footer{background:#333;color:#fff;padding:8px}
+  </style>
+</head>
+<body>
+<header><h3> LearnWell Tuition</h3></header>
+
+<section>
+  <p>Announcements | Courses | Online Registration | Fees</p>
+</section>
+
+<footer>© 2025 LearnWell</footer>
+</body>
+</html>
