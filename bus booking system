@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus Ticket Booking</title>
+</head>
+<body>
+    <h1>Bus Ticket Booking System</h1>
+
+    <h2>Book a Ticket</h2>
+    <form>
+        From: <input type="text" placeholder="Starting City"><br><br>
+        To: <input type="text" placeholder="Destination City"><br><br>
+        Date: <input type="date"><br><br>
+        Bus Type:
+        <select>
+            <option>Volvo</option>
+            <option>Sleeper Coach</option>
+            <option>AC Coach</option>
+        </select><br><br>
+        Seats: <input type="number" placeholder="Number of Seats"><br><br>
+        <button type="submit">Book Now</button>
+    </form>
+
+    <h2>Booking History</h2>
+    <ul>
+        <li>Volvo | From: City A | To: City B | Date: 2025-10-05 | Seats: 2</li>
+        <li>AC Coach | From: City C | To: City D | Date: 2025-11-01 | Seats: 1</li>
+    </ul>
+
+</body>
+</html>
