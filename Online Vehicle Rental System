@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RentRide</title>
+</head>
+<body>
+  <header>
+    <h1>RentRide - Vehicle Rentals</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Vehicles</a> |
+      <a href="#">Bookings</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Search Vehicles</h2>
+      <form>
+        <label>Type:
+          <select>
+            <option>Car</option>
+            <option>Truck</option>
+            <option>SUV</option>
+          </select>
+        </label><br>
+        <label>Rental Duration (days): <input type="number"></label><br>
+        <label>Location: <input type="text"></label><br>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Available Vehicles</h2>
+      <ul>
+        <li>Sedan - $50/day <button>Book</button></li>
+        <li>Truck - $80/day <button>Book</button></li>
+        <li>SUV - $70/day <button>Book</button></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 RentRide</p>
+  </footer>
+</body>
+</html>
