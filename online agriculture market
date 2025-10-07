@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriMart</title>
+</head>
+<body>
+  <header>
+    <h1>AgriMart - Farm Products</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Products</a> |
+      <a href="#">Cart</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Browse Products</h2>
+      <ul>
+        <li>Wheat Seeds - $20 <button>Add to Cart</button></li>
+        <li>Fertilizer Pack - $50 <button>Add to Cart</button></li>
+        <li>Tractor Tool Kit - $300 <button>Add to Cart</button></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>My Cart</h2>
+      <table border="1" cellpadding="5">
+        <tr><th>Item</th><th>Price</th><th>Action</th></tr>
+        <tr><td>Wheat Seeds</td><td>$20</td><td><button>Remove</button></td></tr>
+      </table>
+      <p>Total: $20</p>
+      <button>Checkout</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AgriMart</p>
+  </footer>
+</body>
+</html>
