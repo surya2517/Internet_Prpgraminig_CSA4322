@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library System</title>
+</head>
+<body>
+    <h1>Welcome to the Library</h1>
+
+    <h2>Login</h2>
+    <form>
+        Username: <input type="text" placeholder="Enter username"><br><br>
+        Password: <input type="password" placeholder="Enter password"><br><br>
+        <button type="submit">Login</button>
+    </form>
+
+    <h2>Search Book</h2>
+    <form>
+        Book Name: <input type="text" placeholder="Enter book name"><br><br>
+        <button type="submit">Search</button>
+    </form>
+
+    <h2>Book List</h2>
+    <ul>
+        <li>Book 1 - Author A <button>Borrow</button></li>
+        <li>Book 2 - Author B <button>Borrow</button></li>
+        <li>Book 3 - Author C <button>Borrow</button></li>
+    </ul>
+</body>
+</html>
