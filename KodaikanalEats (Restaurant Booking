@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KodaikanalEats</title>
+  <style>
+    body{font-family:Arial;text-align:center;background:#f2f2f2;margin:0}
+    header,footer{background:#333;color:#fff;padding:8px}
+  </style>
+</head>
+<body>
+<header><h3>🍽️ KodaikanalEats</h3></header>
+
+<section>
+  <p>Search Restaurants | Filter Cuisine | Book Tables</p>
+</section>
+
+<footer>© 2025 KodaikanalEats</footer>
+</body>
+</html>
