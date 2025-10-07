@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Finder</title>
+</head>
+<body>
+  <header>
+    <h1>Home Finder - Buy & Rent</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Properties</a> |
+      <a href="#">Agents</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Search Properties</h2>
+      <form>
+        <label>Location: <input type="text"></label><br>
+        <label>Type:
+          <select>
+            <option>Apartment</option>
+            <option>House</option>
+            <option>Commercial</option>
+          </select>
+        </label><br>
+        <label>Price Range: <input type="number" placeholder="Max Price"></label><br>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Featured Properties</h2>
+      <article>
+        <h3>2BHK Apartment</h3>
+        <p>Price: $80,000 | Location: Chennai</p>
+      </article>
+      <article>
+        <h3>Villa with Garden</h3>
+        <p>Price: $150,000 | Location: Bangalore</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Home Finder</p>
+  </footer>
+</body>
+</html>
