@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlossomGifts</title>
+</head>
+<body>
+  <header>
+    <h1>BlossomGifts - Flowers & Gifts</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">Flowers</a> |
+      <a href="#">Gifts</a> |
+      <a href="#">My Orders</a> |
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Order a Gift</h2>
+      <form>
+        <label>Select Item:
+          <select>
+            <option>Rose Bouquet</option>
+            <option>Chocolate Hamper</option>
+            <option>Teddy Bear</option>
+          </select>
+        </label><br>
+        <label>Delivery Date: <input type="date"></label><br>
+        <label>Recipient Name: <input type="text"></label><br>
+        <button type="submit">Order Now</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Track Order</h2>
+      <form>
+        <label>Order ID: <input type="text"></label>
+        <button type="submit">Track</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BlossomGifts</p>
+  </footer>
+</body>
+</html>
